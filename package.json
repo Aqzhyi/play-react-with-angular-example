@@ -1,0 +1,24 @@
+{
+  "name": "play-react-with-angular-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.18.0",
+    "http-server": "^0.9.0",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "dev": "webpack --watch --progress --colors",
+    "dev:s": "http-server"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
